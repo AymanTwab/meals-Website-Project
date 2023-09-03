@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+</head>
+
+<body>
+    <div id="loadingLayer"><div class="loader"></div></div>
+    <nav class="navbar p-0 position-fixed">
+        <div class="side-nav-menu vh-100 top-0 d-flex">
+            <div class="side-nav vh-100">
+                <ul class="position-relative">
+                    <li id="search"><a class="nav-link text-decoration-none text-white none">Search</a></li>
+                    <li id="categories"><a class="nav-link text-decoration-none text-white none">Categories</a></li>
+                    <li id="area"><a class="nav-link text-decoration-none text-white none">Area</a></li>
+                    <li id="ingredient"><a class="nav-link text-decoration-none text-white none">Ingredients</a></li>
+                    <li id="contact"><a class="nav-link text-decoration-none text-white none">Contact Us</a></li>
+                </ul>
+                <div class="align-content-end d-flex justify-content-evenly position-relative top-50">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="position-relative top-50 mt-3"><p>Copyright Â© 2019 All Rights
+                    Reserved.</p></div>
+            </div>
+            <div class="side-main vh-100 d-flex position-relative">
+                <div class="logo p-2 mt-3">
+                    <img class="w-100" src="images/logo.png" alt="yummy-logo">
+                </div>
+                <div id="openArrow" class="position-absolute top-50">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div id="closeArrow" class="position-absolute top-50">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="align-content-end d-flex flex-column fs-4 justify-content-evenly position-relative mb-5 text-black">
+                    <i class="fa-solid fa-globe mb-4"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="home">
+        <div class="container">
+            <div id="searchBox" class="row"></div>
+            <div id="homePage" class="row"></div>
+            <div id="mealPage" class="row py-5 g-4"></div>
+            <div id="contactPage" class="row">
+                
+            </div>
+        </div>
+    </main>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
